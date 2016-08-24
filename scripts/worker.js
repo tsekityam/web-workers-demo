@@ -24,6 +24,5 @@ this.onmessage = function(e) {
       this.message = message;
     };
     throw new ManipulationException('Image manipulation error');
-    postMessage(undefined);
   }
 }
